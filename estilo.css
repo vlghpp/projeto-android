@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #83E1AD;
+}
+header{
+  background: rgb(61,220,132);
+  background: linear-gradient(180deg, rgba(61,220,132,1) 0%, rgba(31,134,77,1) 23%, rgba(6,61,30,1) 100%);  
+  color: rgb(255, 255, 255);
+  box-shadow:  0px 0px 7px black;
+}
+h1#h1header{
+  padding-top: 20px;
+}
+header > h1{
+  font-family: Bebas Neue, cursive;
+  text-align: center;
+  font-size: 36px;
+}
+header > p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding:  20px;
+}
+nav{
+  text-align: center;
+}
+nav > ul > li{
+  display:  inline-block;
+  padding: 20px;
+}
+nav > ul > li > a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+main{
+  background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+img{
+  width: 100%;
+}
+#historia{
+  font-family: idroid;
+  font-size: 32px;
+  color: #063D1E;
+}
+.idroid{
+  font-size: 20px;
+  font-family: idroid;
+  color: #063D1E;
+  background: rgb(197,235,214);
+  background: linear-gradient(-90deg, rgba(197,235,214,0) 36%, rgba(179,223,199,1) 100%);
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5em;
+
+}
+strong{
+  color: rgb(47, 88, 47);
+}
+a{
+  color: rgb(103, 155, 103);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: #57b63f;
+  text-decoration: underline;
+}
+.video{
+  border: 30px solid #063D1E;
+  position: relative;
+  width: 100%;
+  height: 0%;
+  padding-bottom: 56.25%;
+}
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+picture{
+  display: flex;
+  justify-content: center;
+}
+aside{
+  background-color: #c5ebd6;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px black;
+}
+aside > p{
+  padding: 10px;
+}
+aside > h3{
+  padding: 10px;
+  margin-top: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
+  background-color: #83E1AD;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+aside > ul{
+  columns: 2;
+  list-style-position: inside;
+}
+.lista1{
+  padding: 10px;
+  font-size: 12px;
+  list-style-type: none;
+}
+footer{
+  margin-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: #063D1E;
+  color: #c5ebd6;
+  width: 100%;
+}
+footer > p{
+  font-size: 10px;
+  text-align: center;
+}
